@@ -4,6 +4,7 @@ metadata:
   name: busybox
   namespace: default
 spec:
+  replicas: 3
   containers:
   - image: busybox
     command:
